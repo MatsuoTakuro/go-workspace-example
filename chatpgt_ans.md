@@ -74,7 +74,7 @@ cd ..
 cat > go.work <<EOF
 go 1.18
 
-directory (
+use (
     ./module1
     ./module2
 )
